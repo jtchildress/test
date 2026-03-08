@@ -6,14 +6,14 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f7f9fb;
+    background: white;
     color: #222;
     line-height: 1.6;
 }
 
 header {
-    background: #2d3748;
-    color: #fff;
+    background: crimson;
+    color: white;
     padding: 2rem 0;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
@@ -26,11 +26,11 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
-    color: #cbd5e1;
+    color: white;
 }
 
 nav {
-    background: #4a5568;
+    background: crimson;
     padding: 0.5rem 0;
 }
 
@@ -42,21 +42,21 @@ nav ul {
 }
 
 nav a {
-    color: #fff;
+    color:white;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
 }
 
 nav a:hover {
-    color: #63b3ed;
+    color: grey;
 }
 
 main {
     max-width: 900px;
     margin: 2rem auto;
     padding: 2rem;
-    background: #fff;
+    background: white;
     border-radius: 10px;
     box-shadow: 0 2px 16px rgba(0,0,0,0.05);
 }
@@ -66,7 +66,7 @@ section {
 }
 
 section h2 {
-    color: #2b6cb0;
+    color: gray;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -74,8 +74,8 @@ section h2 {
 footer {
     text-align: center;
     padding: 1.5rem 0;
-    background: #2d3748;
-    color: #cbd5e1;
+    background: crimson;
+    color: white;
     margin-top: 2rem;
     font-size: 1rem;
 }
