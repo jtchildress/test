@@ -1,14 +1,25 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Grand Prix 2025</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main id="main-content" role="main">
-        <h1>Japanese Grand Prix</h1>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Japanese Grand Prix</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#about" accesskey="a">About</a></li>
+                    <li><a href="#schedule" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0">Japanese Grand Prix</h1>
+        </header>
+        <main>
+            <section id="about">
+                <h2 tabindex="0">About the race</h2>
         <img src="https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_640/v1/media/gmg/DJUC2GVGS5FGHKIXWW5SSCF5KE.jpg?_a=DAJHqpE+ZAAA" alt="Japanese Grand Prix">
         <p>Max Verstappen took pole position and kept the lead for most of the race, which had Kimi Antonelli leading for a little bit, making him the youngest driver ever to lead a race. 
             But Max Verstappen took back the lead and ended up winning the race over the two McLarens. This race, Yuki Tsunoda took over the second seat at the main Red Bull team and Liam Lawson got demoted.</p>
@@ -35,6 +46,21 @@
             <li>Ret. Jack Doohan - Accident</li>
             <li>DNS. Isack Hadjar - Accident</li>
         </ul>
-    </main>
-</body>
-</html>
+<section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Japanese Grand Prix</p>
+        </footer>
+    </body>
+    </html>
