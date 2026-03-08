@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Qatar Grand Prix</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" accesskey="h">home</a></li>
+                    <li><a href="about.html" accesskey="a">About</a></li>
+                    <li><a href="schedule.html" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0">Qatar Grand Prix</h1>
+        </header>
+        <main>
+                <h2 tabindex="0">About the race</h2>
+<p>piastri won the sprint race from pole. while max verstappen won the main race from third because mclaren waited to long to do a pitstop. to "stay flexible"
+    which offset them from the rest of the grid. which gave carlos sainz jr his secnd podium in a williams. lando could have won the championship if he scored high enogh in this race but didnt. 
+    with verstappens win he now moves up to second place in the drivers championship, twelve points behind lando.
+</p>
+
+<figure>
+    <img src="" alt="" style="max-width:100%;height:auto;">
+    <figcaption></figcaption>
+</figure>
+<ul>
+    <li><strong>Race Results (Name &amp; Time):</strong></li>
+    <li>Max Verstappen – 1:24:38.241</li>
+    <li>Oscar Piastri – +7.995</li>
+    <li>Carlos Sainz Jr. – +22.665</li>
+    <li>Lando Norris – +23.315</li>
+    <li>Kimi Antonelli – +28.317</li>
+    <li>George Russell – +48.599</li>
+    <li>Fernando Alonso – +54.045</li>
+    <li>Charles Leclerc – +56.785</li>
+    <li>Liam Lawson – +1:00.073</li>
+    <li>Yuki Tsunoda – +1:01.770</li>
+    <li>Alexander Albon – +1:06.931</li>
+    <li>Lewis Hamilton – +1:17.730</li>
+    <li>Gabriel Bortoleto – +1:24.812</li>
+    <li>Franco Colapinto – +1 lap</li>
+    <li>Esteban Ocon – +1 lap</li>
+    <li>Pierre Gasly – +1 lap</li>
+    <li>Lance Stroll – Collision damage</li>
+    <li>Isack Hadjar – Puncture</li>
+    <li>Oliver Bearman – Pit stop issue</li>
+    <li>Nico Hülkenberg – Collision</li>
+</ul>
+</ul>
+        </p>
+        <section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Qatar Grand Prix</p>
+        </footer>
+    </body>
+    </html>

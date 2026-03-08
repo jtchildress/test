@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Miami Grand Prix</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" accesskey="h">home</a></li>
+                    <li><a href="about.html" accesskey="a">About</a></li>
+                    <li><a href="schedule.html" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0"> Miami Grand Prix</h1>
+        </header>
+        <main>
+                <h2 tabindex="0">About the race</h2>
+<p>this is the second sprint race weekend which had kimi antonelli take pole position but got a penalty for unsafe release.
+    after fernando alonso suffered a heavy crash a safety car was released wich helped lando norris to undercut piastri and win the sprint race.
+    for the main race max verstappen got pole position but lando norris and oscar piaistri were able to overtake him and get a one two podium.
+</p>
+
+<figure>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgax6Vhkbs851r46u_d7OB9k1eJxdUHtWudw&s" alt="lando norris and oscar piastri celevrating the win together" style="max-width:100%;height:auto;">
+    <figcaption>lando norris and oscar piastri on the podium celebrating</figcaption>
+</figure>
+<ul>
+     <li><strong>Race Results (Name &amp; Time):</strong></li>
+<li>Oscar Piastri – 1:28:51.587</li>
+<li>Lando Norris – +4.630</li>
+<li>George Russell – +37.644</li>
+<li>Max Verstappen – +39.956</li>
+<li>Alexander Albon – +48.067</li>
+<li>Kimi Antonelli – +55.502</li>
+<li>Charles Leclerc – +57.036</li>
+<li>Lewis Hamilton – +1:00.186</li>
+<li>Carlos Sainz Jr. – +1:00.577</li>
+<li>Yuki Tsunoda – +1:14.4341</li>
+<li>Isack Hadjar – +1:14.602</li>
+<li>Esteban Ocon – +1:22.006</li>
+<li>Pierre Gasly – +1:30.445</li>
+<li>Nico Hülkenberg – +1 lap</li>
+<li>Fernando Alonso – +1 lap</li>
+<li>Lance Stroll – +1 lap</li>
+<li>Liam Lawson – Collision damage</li>
+<li>Gabriel Bortoleto – Fuel system</li>
+<li>Oliver Bearman – Engine</li>
+<li>Jack Doohan – Collision</li>	
+
+</ul>
+        </p>
+        <section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Miami Grand Prix</p>
+        </footer>
+    </body>
+    </html>

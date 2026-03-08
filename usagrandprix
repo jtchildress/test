@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>United States Grand Prix</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" accesskey="h">home</a></li>
+                    <li><a href="about.html" accesskey="a">About</a></li>
+                    <li><a href="schedule.html" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0">United States Grand Prix</h1>
+        </header>
+        <main>
+                <h2 tabindex="0">About the race</h2>
+<p>max verstappen won both the race and the sprint with the mclarens both retiring in the sprint after they collided with each other. with norris coming second in the race
+    and piastri coming in fifth this brought the points gap in the drivers championship alot closer together.
+</p>
+
+<figure>
+    <img src="" alt="" style="max-width:100%;height:auto;">
+    <figcaption></figcaption>
+</figure>
+<ul>
+    <li><strong>Race Results (Name &amp; Time):</strong></li>
+<li>Max Verstappen – 1:32.510</li>
+<li>Lando Norris – 1:32.801</li>
+<li>Charles Leclerc – 1:32.807</li>
+<li>George Russell – 1:32.826</li>
+<li>Lewis Hamilton – 1:32.912</li>
+<li>Oscar Piastri – 1:33.084</li>
+<li>Kimi Antonelli – 1:33.114</li>
+<li>Oliver Bearman – 1:33.139</li>
+<li>Carlos Sainz Jr. – 1:33.150</li>
+<li>Fernando Alonso – 1:33.160</li>
+<li>Nico Hülkenberg – N/A</li>
+<li>Liam Lawson – N/A</li>
+<li>Yuki Tsunoda – N/A</li>
+<li>Pierre Gasly – N/A</li>
+<li>Franco Colapinto – N/A</li>
+<li>Gabriel Bortoleto – N/A</li>
+<li>Esteban Ocon – N/A</li>
+<li>Lance Stroll – N/A</li>
+<li>Alexander Albon – N/A</li>
+<li>Isack Hadjar – No time</li> 
+</ul>
+        </p>
+        <section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 United States Grand Prix</p>
+        </footer>
+    </body>
+    </html>

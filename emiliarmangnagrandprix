@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Emilia Romagna Grand Prix</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" accesskey="h">home</a></li>
+                    <li><a href="about.html" accesskey="a">About</a></li>
+                    <li><a href="schedule.html" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0">Emilia Romagna Grand Prix</h1>
+        </header>
+        <main>
+                <h2 tabindex="0">About the race</h2>
+<p>piastri took pole postion ahead of verstappen but max got ahead of him and ended up winning. kimi antonelli suffered mercedes first retirement of the season.
+    due to a mechanical failure. jack doohan a rooki at alpine got replaced by franco colapinto a rookie and qualified sixteenth.
+</p>
+
+<figure>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Miscg6RCOXVKzF8C137w5VGBVo85PH7w3g&s" alt="the start of the race" style="max-width:100%;height:auto;">
+    <figcaption>the start of the race</figcaption>
+</figure>
+<ul>
+    <li><strong>Race Results:</strong></li>
+    <li>Max Verstappen – 1:31:33.199</li>
+    <li>Lando Norris – +6.109</li>
+    <li>Oscar Piastri – +12.956</li>
+    <li>Lewis Hamilton – +14.356</li>
+    <li>Alexander Albon – +17.945</li>
+    <li>Charles Leclerc – +20.774</li>
+    <li>George Russell – +22.034</li>
+    <li>Carlos Sainz Jr. – +22.898</li>
+    <li>Isack Hadjar – +23.586</li>
+    <li>Yuki Tsunoda – +26.446</li>
+    <li>Fernando Alonso – +27.250</li>
+    <li>Nico Hülkenberg – +30.296</li>
+    <li>Pierre Gasly – +31.424</li>
+    <li>Liam Lawson – +32.511</li>
+    <li>Lance Stroll – +32.993</li>
+    <li>Franco Colapinto – +33.411</li>
+    <li>Oliver Bearman – +33.808</li>
+    <li>Gabriel Bortoleto – +38.572</li>
+    <li>Kimi Antonelli – Retired (44 laps, Throttle)</li>
+    <li>Esteban Ocon – Retired (27 laps, Engine)</li>
+</ul>
+
+</ul>
+        </p>
+        <section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Emilia Romagna Grand Prix</p>
+        </footer>
+    </body>
+    </html>

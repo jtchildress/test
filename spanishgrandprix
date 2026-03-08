@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spanish Grand Prix</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" accesskey="h">home</a></li>
+                    <li><a href="about.html" accesskey="a">About</a></li>
+                    <li><a href="schedule.html" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0">Spanish Grand Prix</h1>
+        </header>
+        <main>
+                <h2 tabindex="0">About the race</h2>
+<p>oscar piastri started on pole position and converted it into a win. kimi antonelli suffered a mechanical issue and brought out a safety car. 
+    the race resumed and max collided with george russel after max was told to give the postion back wich gave him a ten ssecond penalty.
+</p>
+
+<figure>
+    <img src="data:image/jpeg;base64,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" alt="max colliding with george russel" style="max-width:100%;height:auto;">
+    <figcaption>max and george colloding</figcaption>
+</figure>
+<ul>
+    <li><strong>Race Results (Name &amp; Time):</strong></li>
+<li>Oscar Piastri – 1:32:57.375</li>
+<li>Lando Norris – +2.471</li>
+<li>Charles Leclerc – +10.455</li>
+<li>George Russell – +11.359</li>
+<li>Nico Hülkenberg – +13.648</li>
+<li>Lewis Hamilton – +15.508</li>
+<li>Isack Hadjar – +16.022</li>
+<li>Pierre Gasly – +17.882</li>
+<li>Fernando Alonso – +21.564</li>
+<li>Max Verstappen – +21.8261</li>
+<li>Liam Lawson – +25.532</li>
+<li>Gabriel Bortoleto – +25.996</li>
+<li>Yuki Tsunoda – +28.822</li>
+<li>Carlos Sainz Jr. – +29.309</li>
+<li>Franco Colapinto – +31.381</li>
+<li>Esteban Ocon – +32.197</li>
+<li>Oliver Bearman – +37.0652</li>
+<li>Kimi Antonelli – Retired (Oil pressure)</li>
+<li>Alexander Albon – Retired (Collision damage)</li>
+<li>Lance Stroll – Withdrawn (Driver injury)</li>	
+</ul>
+        </p>
+        <section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Spanish Grand Prix</p>
+        </footer>
+    </body>
+    </html>

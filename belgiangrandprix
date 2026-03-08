@@ -1,0 +1,71 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Belgian Grand Prix</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" accesskey="h">home</a></li>
+                    <li><a href="about.html" accesskey="a">About</a></li>
+                    <li><a href="schedule.html" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 tabindex="0"> Belgian Grand Prix</h1>
+        </header>
+        <main>
+                <h2 tabindex="0">About the race</h2>
+<p>piastri took pole postition for the sprint race but lost out to max who won. lando norris took pole for the race. the race started under safety car when it ended oscar took the lead from lando and won the race.
+</p>
+
+<figure>
+    <img src="data:image/jpeg;base64,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" alt="piastri taking the lead" style="max-width:100%;height:auto;">
+    <figcaption>paistri taking the lead</figcaption>
+</figure>
+<ul>
+    <li><strong>Race Results:</strong></li>
+<li>Oscar Piastri – 1:25:22.601</li>
+<li>Lando Norris – +3.415</li>
+<li>Charles Leclerc – +20.185</li>
+<li>Max Verstappen – +21.731</li>
+<li>George Russell – +34.863</li>
+<li>Alexander Albon – +39.926</li>
+<li>Lewis Hamilton – +40.679</li>
+<li>Liam Lawson – +52.033</li>
+<li>Gabriel Bortoleto – +56.434</li>
+<li>Pierre Gasly – +1:12.714</li>
+<li>Oliver Bearman – +1:13.145</li>
+<li>Nico Hülkenberg – +1:13.628</li>
+<li>Yuki Tsunoda – +1:15.395</li>
+<li>Lance Stroll – +1:19.831</li>
+<li>Esteban Ocon – +1:26.063</li>
+<li>Kimi Antonelli – +1:26.721</li>
+<li>Fernando Alonso – +1:27.924</li>
+<li>Carlos Sainz Jr. – +1:32.024</li>
+<li>Franco Colapinto – +1:35.520</li>
+<li>Isack Hadjar – +1 lap</li>
+</ul>
+        </p>
+        <section id="contact">
+                <h2 tabindex="0">Contact Us</h2>
+                <form aria-label="Contact form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" aria-required="true" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Belgian Grand Prix</p>
+        </footer>
+    </body>
+    </html>
