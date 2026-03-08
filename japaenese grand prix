@@ -8,20 +8,20 @@
     </head>
     <body>
         <header>
-       <nav aria-label="Main Navigation">
-            <ul>
-                <li><a href="index.html" accesskey="h">home</a></li>
-                <li><a href="about.html" accesskey="a">About</a></li>
-                <li><a href="schedule.html" accesskey="s">Schedule</a></li>
-                <li><a href="#contact" accesskey="c">Contact</a></li>
-            </ul>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html" accesskey="h">home</a></li>
+                    <li><a href="about.html" accesskey="a">About</a></li>
+                    <li><a href="schedule.html" accesskey="s">Schedule</a></li>
+                    <li><a href="#contact" accesskey="c">Contact</a></li>
+                </ul>
             </nav>
             <h1 tabindex="0">Japanese Grand Prix</h1>
         </header>
         <main>
             <section id="about">
                 <h2 tabindex="0">About the race</h2>
-        <img src="https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_640/v1/media/gmg/DJUC2GVGS5FGHKIXWW5SSCF5KE.jpg?_a=DAJHqpE+ZAAA" alt="Japanese Grand Prix">
+        <img src="https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_640/v1/media/gmg/DJUC2GVGS5FGHKIXWW5SSCF5KE.jpg?_a=DAJHqpE+ZAAA" alt="Japanese Grand Prix" style="width:100vw;max-width:100vw;height:auto;display:block;margin:0 auto;">
         <p>Max Verstappen took pole position and kept the lead for most of the race, which had Kimi Antonelli leading for a little bit, making him the youngest driver ever to lead a race. 
             But Max Verstappen took back the lead and ended up winning the race over the two McLarens. This race, Yuki Tsunoda took over the second seat at the main Red Bull team and Liam Lawson got demoted.</p>
         <h2>Race Times</h2>
